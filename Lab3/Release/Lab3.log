@@ -1,0 +1,23 @@
+﻿Build started 5/21/2015 8:07:13 PM.
+     1>Project "G:\Lab3\Lab3\Lab3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\st\IET\RTA\Lab3\assimp /IE:\st\IET\RTA\Lab3 /I"E:\st\IET\RTA\Lab3\glew-1.10.0\include" /I"E:\st\IET\RTA\Lab3\glfw-3.0.4.bin.WIN32\include\GLFW" /IE:\st\IET\RTA\Lab3\glm /I"C:\Program Files (x86)\ImageMagick-6.9.0-Q16\include" /I"C:\Program Files (x86)\ImageMagick-6.9.0-Q16\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\controls.cpp ..\main.cpp ..\math_3d.cpp ..\MeshLoader.cpp ..\ogldev_util.cpp ..\shader.cpp ..\TextureMesh.cpp
+         controls.cpp
+     1>..\controls.cpp(2): fatal error C1083: Cannot open include file: 'glfw3.h': No such file or directory
+         main.cpp
+     1>..\main.cpp(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         math_3d.cpp
+     1>g:\lab3\ogldev_util.h(29): fatal error C1083: Cannot open include file: 'gl/glew.h': No such file or directory
+         MeshLoader.cpp
+     1>g:\lab3\MeshLoader.h(5): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         ogldev_util.cpp
+     1>g:\lab3\ogldev_util.h(29): fatal error C1083: Cannot open include file: 'gl/glew.h': No such file or directory
+         shader.cpp
+     1>..\shader.cpp(12): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         TextureMesh.cpp
+     1>g:\lab3\TextureMesh.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+     1>Done Building Project "G:\Lab3\Lab3\Lab3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.91
